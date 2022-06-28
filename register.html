@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
+    <title>Cadastro | Fintech</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <main class="container">
+        <h2>Cadastrar-se</h2>
+        <form action="">
+            <center>
+                <div class="container">
+                    <img src="assets/icon_person.png" width="150" height="150" />
+                </div>
+            </center>
+
+            <div class="input-field">
+                <input type="text" name="nome" id="nome" placeholder="Nome completo">
+
+            </div>
+            <div class="input-field">
+                <input type="text" name="dt_nasc" id="dt_nasc" placeholder="Data de nascimento">
+
+            </div>
+            <div class="input-field">
+                <input type="text" name="email" id="email" placeholder="Email">
+
+            </div>
+
+            <div class="input-field">
+                <input type="password" name="password" id="password" placeholder="Senha">
+
+            </div>
+            <div class="input-field">
+                <input type="password" name="confirm_password" id="confirm_password" placeholder="Confirme a senha">
+
+            </div>
+
+        </form>
+        <input type="submit" value="CADASTRAR" onclick="redirecionar()">
+
+
+        </div>
+    </main>
+    <script>
+        function redirecionar() {
+            window.location.href = "index.html";
+
+            window.alert("Cadastro efetuado com sucesso!");
+        }
+    </script>
+</body>
+
+</html>
